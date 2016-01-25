@@ -7,20 +7,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:baselineAligned="false"
-    android:orientation="horizontal" >
+    android:orientation="horizontal"
+    android:background="@drawable/lanscape">
 
     <fragment
         android:id="@+id/titles"
-        android:layout_width="0px"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="2"
         class="uoft.Assignment2.cs.fragments.FragmentLayout$TitlesFragment" />
 
     <FrameLayout
         android:id="@+id/details"
-        android:layout_width="0px"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="?android:attr/detailsElementBackground" />
+        android:layout_weight="5" />
 
 </LinearLayout>

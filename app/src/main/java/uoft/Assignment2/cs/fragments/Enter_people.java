@@ -60,8 +60,6 @@ public class Enter_people extends Fragment {
                             SharedPreferences.Editor editor = sharedPref.edit();
                             editor.putString(get_name, "\n" + get_age + "\n" + selected );
                             editor.commit();
-                            Toast.makeText(getActivity(), get_name,
-                                    Toast.LENGTH_LONG).show();
                             name.setText("");
                             age.setText("");
                             spinner.setSelection(0);

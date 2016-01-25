@@ -3,15 +3,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="30dp"
-    android:background="@drawable/flower">
+    android:padding="20dp">
     <TextView android:id="@+id/enter_filename"
         android:text="@string/enter_filename"
         android:typeface="serif"
-        android:layout_width="320dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:textSize="23sp"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="17sp"
         android:layout_centerHorizontal="true"
         android:gravity="center"/>
     <EditText
@@ -19,13 +18,14 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/enter_filename"
-        android:paddingTop="60dp" />
+        android:paddingTop="40dp" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@id/filename"
         android:text="Done"
         android:background="@color/button"
+        android:layout_alignParentRight="true"
         android:id="@+id/file_button" />
 </RelativeLayout>

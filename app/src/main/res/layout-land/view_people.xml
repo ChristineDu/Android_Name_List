@@ -2,8 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:padding="30dp"
-    android:background="@drawable/flower">
+    android:padding="30dp">
 
     <ListView android:id="@id/android:list"
         android:layout_width="match_parent"
