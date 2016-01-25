@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+    <TextView android:id="@+id/enter_filename"
+        android:text="@string/enter_filename"
+        android:typeface="serif"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#00d4ff"
+        android:textSize="23sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/filename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_filename"
+        android:paddingTop="60dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_below="@id/filename"
+        android:text="Done"
+        android:id="@+id/file_button" />
+</RelativeLayout>
